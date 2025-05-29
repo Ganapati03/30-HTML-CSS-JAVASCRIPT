@@ -81,3 +81,12 @@ button:hover {
         transform: scale(1.1);
     }
 }
+
+@media screen and (max-width: 480px) {
+ button{
+    background-color: red;
+  }
+  .container{
+    min-width: 300px;
+  }
+}
