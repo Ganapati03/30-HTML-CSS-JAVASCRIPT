@@ -41,7 +41,7 @@ h2 {
 #result {
     border: 1px solid black;
     padding: 40px 50px;
-    max-height: 300px;
+    height: 300px;
     width: 90%;
     margin-bottom: 12px;
     background: linear-gradient(168deg, #d640c0, #ffff);
