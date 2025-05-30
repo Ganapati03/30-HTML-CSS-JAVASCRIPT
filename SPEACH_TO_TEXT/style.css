@@ -41,11 +41,16 @@ h2 {
 #result {
     border: 1px solid black;
     padding: 40px 50px;
-    height: 300px;
+    max-height: 300px;
     width: 90%;
     margin-bottom: 12px;
     background: linear-gradient(168deg, #d640c0, #ffff);
     border-radius: 4px;
+    word-wrap: break-word;
+    overflow-y: auto;
+    white-space: normal;
+    overflow-wrap: break-word;
+
 }
 
 .button-container {
